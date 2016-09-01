@@ -1,0 +1,135 @@
+/*
+ * Copyright 2016 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+.event-entry {
+  max-width: 860px;
+}
+
+.month-separator {
+  max-width: 860px;
+  font-weight: 400;
+}
+
+#loading-section {
+  max-width: 844px;
+}
+
+.mdl-layout__content section {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+section header h5 {
+  margin: 0px;
+}
+
+section header h4 {
+  margin: 0px;
+}
+
+div.event-header {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+div.event-date {
+  /*white-space: nowrap;*/
+}
+
+div.event-location {
+  margin-top: 8px;
+  text-align: right;
+}
+
+div.event-country h5 {
+  font-weight: bold;
+}
+
+div.vertical-spacer {
+  flex-grow: 1;
+}
+
+.sign-in-text {
+  margin-left: 8px;
+}
+
+.event-description {
+  flex-grow: 1;
+}
+
+.interested {
+  background-color: #EEEEEE;
+}
+
+#loading-section {
+  display: none;
+}
+
+#events-container {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.filter-card {
+  max-width: 860px;
+}
+
+.filter-header {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.event-topics {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  /* width: 90%; */
+  color: rgba(200,0,0,.54);
+  font-style: italic;
+  text-align: right;
+}
+
+.interested-container {
+  display: flex;
+}
+
+.interested-button {
+
+}
+
+.interested-photos {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.interested-photo {
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+
+.general-filter {
+  background-color: #ffffff;
+}
