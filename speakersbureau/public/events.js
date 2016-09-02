@@ -120,7 +120,7 @@ function updateInterestedElement(id, isInterested) {
 function updateInterestedEvent(id, isInterested) {
   var event = eventsStore[id];
   if (event && gUser) {
-    var ref = firebase.database().ref('events20160712/' + id + '/interested/');
+    var ref = firebase.database().ref('events/' + id + '/interested/');
     if (isInterested) {
       var updates = {};
       updates[gUser.uid] = gUser;
